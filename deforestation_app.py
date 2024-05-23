@@ -45,7 +45,7 @@ def main():
     st.title("AIMS-GPSDD FELLOWSHIP")
     html_temp = """
     <div style="background-color:#EACF4C;padding:10px">
-    <h2 style="color:white;text-align:center;">Détection d'une région menacée par la déforestation</h2>
+    <h2 style="color:white;text-align:center;">Détection d'une zone menacée par la déforestation</h2>
     </div>
     """
     st.markdown(html_temp,unsafe_allow_html=True) 
@@ -57,8 +57,8 @@ def main():
         result=predict_note_authentication(TU,SA,SP)
     st.success('Le résultat est {}'.format(result))
 
-    st.text("[1] : la région est fortement menacée par la déforestation")
-    st.text("[0] : la région est faiblement menacée par la déforestation")
+    st.text("[1] : la zone est fortement menacée par la déforestation")
+    st.text("[0] : la zone est faiblement menacée par la déforestation")
 
     if st.button("A propos"):
        st.markdown("Ce projet a été piloté par IPAR en collaboration avec AIMS, GPSDD, ANSD et DPVE. L'objectif \
