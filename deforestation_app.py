@@ -61,9 +61,9 @@ def main():
     st.text("[0] : la région est faiblement menacée par la déforestation")
 
     if st.button("A propos"):
-       st.text("Ce projet est piloté par IPAR en collaboration avec AIMS, GPSDD, ANSD et DPVE. L'objectif")
-       st.text("de ce projet est de mettre en place un modèle de machine learning qui permet de prédire")
-       st.text("la menace de déforestation en utilisant des données relatives au développement de")
+       st.text("Ce projet a été piloté par IPAR en collaboration avec AIMS, GPSDD, ANSD et DPVE. L'objectif")
+       st.text("de ce projet etait de mettre en place un modèle de machine learning qui permettrait de prédire")
+       st.text("la menace de déforestation dans une zone donnée en utilisant des données relatives au développement de")
        st.text("l’agriculture et de l’urbanisation.")
 
 
