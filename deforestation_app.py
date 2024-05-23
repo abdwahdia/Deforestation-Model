@@ -32,7 +32,7 @@ def welcome():
     return "Welcome All"
 
 #@app.route('/predict',methods=["Get"])
-def predict_note_authentication(TU,SA,SP):
+def predict_note_authentication(TU = 10,SA = 100,SP = 100):
     
    
     prediction=classifier.predict([[TU,SA,SP]])
